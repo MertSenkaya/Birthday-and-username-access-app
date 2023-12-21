@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5AEF042B2B2122001DBBB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEF032B2B2122001DBBB3 /* AppDelegate.swift */; };
+		FA5AEF062B2B2122001DBBB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEF052B2B2122001DBBB3 /* SceneDelegate.swift */; };
+		FA5AEF082B2B2122001DBBB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEF072B2B2122001DBBB3 /* ViewController.swift */; };
+		FA5AEF0B2B2B2122001DBBB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5AEF092B2B2122001DBBB3 /* Main.storyboard */; };
+		FA5AEF0D2B2B2125001DBBB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5AEF0C2B2B2125001DBBB3 /* Assets.xcassets */; };
+		FA5AEF102B2B2125001DBBB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5AEF0E2B2B2125001DBBB3 /* LaunchScreen.storyboard */; };
+		FA5AEF1B2B2B2125001DBBB3 /* kay_t_appiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEF1A2B2B2125001DBBB3 /* kay_t_appiTests.swift */; };
+		FA5AEF252B2B2125001DBBB3 /* kay_t_appiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEF242B2B2125001DBBB3 /* kay_t_appiUITests.swift */; };
+		FA5AEF272B2B2125001DBBB3 /* kay_t_appiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEF262B2B2125001DBBB3 /* kay_t_appiUITestsLaunchTests.swift */; };
+		FA5AEF342B2B24E9001DBBB3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5AEF332B2B24E9001DBBB3 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5AEF172B2B2125001DBBB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5AEEF82B2B2122001DBBB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5AEEFF2B2B2122001DBBB3;
+			remoteInfo = "kayıt appi";
+		};
+		FA5AEF212B2B2125001DBBB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5AEEF82B2B2122001DBBB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5AEEFF2B2B2122001DBBB3;
+			remoteInfo = "kayıt appi";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA5AEF002B2B2122001DBBB3 /* kayıt appi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kayıt appi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5AEF032B2B2122001DBBB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA5AEF052B2B2122001DBBB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA5AEF072B2B2122001DBBB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA5AEF0A2B2B2122001DBBB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA5AEF0C2B2B2125001DBBB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA5AEF0F2B2B2125001DBBB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA5AEF112B2B2125001DBBB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5AEF162B2B2125001DBBB3 /* kayıt appiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kayıt appiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5AEF1A2B2B2125001DBBB3 /* kay_t_appiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kay_t_appiTests.swift; sourceTree = "<group>"; };
+		FA5AEF202B2B2125001DBBB3 /* kayıt appiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kayıt appiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5AEF242B2B2125001DBBB3 /* kay_t_appiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kay_t_appiUITests.swift; sourceTree = "<group>"; };
+		FA5AEF262B2B2125001DBBB3 /* kay_t_appiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kay_t_appiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA5AEF332B2B24E9001DBBB3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5AEEFD2B2B2122001DBBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5AEF132B2B2125001DBBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5AEF1D2B2B2125001DBBB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5AEEF72B2B2122001DBBB3 = {
+			isa = PBXGroup;
+			children = (
+				FA5AEF022B2B2122001DBBB3 /* kayıt appi */,
+				FA5AEF192B2B2125001DBBB3 /* kayıt appiTests */,
+				FA5AEF232B2B2125001DBBB3 /* kayıt appiUITests */,
+				FA5AEF012B2B2122001DBBB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5AEF012B2B2122001DBBB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5AEF002B2B2122001DBBB3 /* kayıt appi.app */,
+				FA5AEF162B2B2125001DBBB3 /* kayıt appiTests.xctest */,
+				FA5AEF202B2B2125001DBBB3 /* kayıt appiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5AEF022B2B2122001DBBB3 /* kayıt appi */ = {
+			isa = PBXGroup;
+			children = (
+				FA5AEF032B2B2122001DBBB3 /* AppDelegate.swift */,
+				FA5AEF052B2B2122001DBBB3 /* SceneDelegate.swift */,
+				FA5AEF072B2B2122001DBBB3 /* ViewController.swift */,
+				FA5AEF332B2B24E9001DBBB3 /* SecondViewController.swift */,
+				FA5AEF092B2B2122001DBBB3 /* Main.storyboard */,
+				FA5AEF0C2B2B2125001DBBB3 /* Assets.xcassets */,
+				FA5AEF0E2B2B2125001DBBB3 /* LaunchScreen.storyboard */,
+				FA5AEF112B2B2125001DBBB3 /* Info.plist */,
+			);
+			path = "kayıt appi";
+			sourceTree = "<group>";
+		};
+		FA5AEF192B2B2125001DBBB3 /* kayıt appiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5AEF1A2B2B2125001DBBB3 /* kay_t_appiTests.swift */,
+			);
+			path = "kayıt appiTests";
+			sourceTree = "<group>";
+		};
+		FA5AEF232B2B2125001DBBB3 /* kayıt appiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5AEF242B2B2125001DBBB3 /* kay_t_appiUITests.swift */,
+				FA5AEF262B2B2125001DBBB3 /* kay_t_appiUITestsLaunchTests.swift */,
+			);
+			path = "kayıt appiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5AEEFF2B2B2122001DBBB3 /* kayıt appi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5AEF2A2B2B2125001DBBB3 /* Build configuration list for PBXNativeTarget "kayıt appi" */;
+			buildPhases = (
+				FA5AEEFC2B2B2122001DBBB3 /* Sources */,
+				FA5AEEFD2B2B2122001DBBB3 /* Frameworks */,
+				FA5AEEFE2B2B2122001DBBB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kayıt appi";
+			productName = "kayıt appi";
+			productReference = FA5AEF002B2B2122001DBBB3 /* kayıt appi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5AEF152B2B2125001DBBB3 /* kayıt appiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5AEF2D2B2B2125001DBBB3 /* Build configuration list for PBXNativeTarget "kayıt appiTests" */;
+			buildPhases = (
+				FA5AEF122B2B2125001DBBB3 /* Sources */,
+				FA5AEF132B2B2125001DBBB3 /* Frameworks */,
+				FA5AEF142B2B2125001DBBB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5AEF182B2B2125001DBBB3 /* PBXTargetDependency */,
+			);
+			name = "kayıt appiTests";
+			productName = "kayıt appiTests";
+			productReference = FA5AEF162B2B2125001DBBB3 /* kayıt appiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA5AEF1F2B2B2125001DBBB3 /* kayıt appiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5AEF302B2B2125001DBBB3 /* Build configuration list for PBXNativeTarget "kayıt appiUITests" */;
+			buildPhases = (
+				FA5AEF1C2B2B2125001DBBB3 /* Sources */,
+				FA5AEF1D2B2B2125001DBBB3 /* Frameworks */,
+				FA5AEF1E2B2B2125001DBBB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5AEF222B2B2125001DBBB3 /* PBXTargetDependency */,
+			);
+			name = "kayıt appiUITests";
+			productName = "kayıt appiUITests";
+			productReference = FA5AEF202B2B2125001DBBB3 /* kayıt appiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5AEEF82B2B2122001DBBB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FA5AEEFF2B2B2122001DBBB3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FA5AEF152B2B2125001DBBB3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FA5AEEFF2B2B2122001DBBB3;
+					};
+					FA5AEF1F2B2B2125001DBBB3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FA5AEEFF2B2B2122001DBBB3;
+					};
+				};
+			};
+			buildConfigurationList = FA5AEEFB2B2B2122001DBBB3 /* Build configuration list for PBXProject "kayıt appi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5AEEF72B2B2122001DBBB3;
+			productRefGroup = FA5AEF012B2B2122001DBBB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5AEEFF2B2B2122001DBBB3 /* kayıt appi */,
+				FA5AEF152B2B2125001DBBB3 /* kayıt appiTests */,
+				FA5AEF1F2B2B2125001DBBB3 /* kayıt appiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5AEEFE2B2B2122001DBBB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5AEF102B2B2125001DBBB3 /* LaunchScreen.storyboard in Resources */,
+				FA5AEF0D2B2B2125001DBBB3 /* Assets.xcassets in Resources */,
+				FA5AEF0B2B2B2122001DBBB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5AEF142B2B2125001DBBB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5AEF1E2B2B2125001DBBB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5AEEFC2B2B2122001DBBB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5AEF342B2B24E9001DBBB3 /* SecondViewController.swift in Sources */,
+				FA5AEF082B2B2122001DBBB3 /* ViewController.swift in Sources */,
+				FA5AEF042B2B2122001DBBB3 /* AppDelegate.swift in Sources */,
+				FA5AEF062B2B2122001DBBB3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5AEF122B2B2125001DBBB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5AEF1B2B2B2125001DBBB3 /* kay_t_appiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5AEF1C2B2B2125001DBBB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5AEF252B2B2125001DBBB3 /* kay_t_appiUITests.swift in Sources */,
+				FA5AEF272B2B2125001DBBB3 /* kay_t_appiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5AEF182B2B2125001DBBB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5AEEFF2B2B2122001DBBB3 /* kayıt appi */;
+			targetProxy = FA5AEF172B2B2125001DBBB3 /* PBXContainerItemProxy */;
+		};
+		FA5AEF222B2B2125001DBBB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5AEEFF2B2B2122001DBBB3 /* kayıt appi */;
+			targetProxy = FA5AEF212B2B2125001DBBB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA5AEF092B2B2122001DBBB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5AEF0A2B2B2122001DBBB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA5AEF0E2B2B2125001DBBB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5AEF0F2B2B2125001DBBB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA5AEF282B2B2125001DBBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA5AEF292B2B2125001DBBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA5AEF2B2B2B2125001DBBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5KWTTU9MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kayıt appi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.kay-t-appi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA5AEF2C2B2B2125001DBBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5KWTTU9MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "kayıt appi/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.kay-t-appi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA5AEF2E2B2B2125001DBBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5KWTTU9MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.kay-t-appiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kayıt appi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kayıt appi";
+			};
+			name = Debug;
+		};
+		FA5AEF2F2B2B2125001DBBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5KWTTU9MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.kay-t-appiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kayıt appi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kayıt appi";
+			};
+			name = Release;
+		};
+		FA5AEF312B2B2125001DBBB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5KWTTU9MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.kay-t-appiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kayıt appi";
+			};
+			name = Debug;
+		};
+		FA5AEF322B2B2125001DBBB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M5KWTTU9MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deneme.kay-t-appiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kayıt appi";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5AEEFB2B2B2122001DBBB3 /* Build configuration list for PBXProject "kayıt appi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5AEF282B2B2125001DBBB3 /* Debug */,
+				FA5AEF292B2B2125001DBBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5AEF2A2B2B2125001DBBB3 /* Build configuration list for PBXNativeTarget "kayıt appi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5AEF2B2B2B2125001DBBB3 /* Debug */,
+				FA5AEF2C2B2B2125001DBBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5AEF2D2B2B2125001DBBB3 /* Build configuration list for PBXNativeTarget "kayıt appiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5AEF2E2B2B2125001DBBB3 /* Debug */,
+				FA5AEF2F2B2B2125001DBBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5AEF302B2B2125001DBBB3 /* Build configuration list for PBXNativeTarget "kayıt appiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5AEF312B2B2125001DBBB3 /* Debug */,
+				FA5AEF322B2B2125001DBBB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5AEEF82B2B2122001DBBB3 /* Project object */;
+}
